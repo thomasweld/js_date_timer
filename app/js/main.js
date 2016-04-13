@@ -16,11 +16,12 @@ function timeGoesOn(){
 // HEX VALUES
 
 // sets initial random hex value
-document.querySelector('#hex').innerHTML = '#' + (Math.random()* 0xFFFFFF << 0 ).toString(16);
+document.querySelector('#hex').innerHTML = '#' + (Math.random()* 0xFFFFFF << 0 ).toString(16).toUpperCase();
+document.querySelector('#colorChange').style.background = document.querySelector('#hex').innerHTML;
 
 setInterval( changeColor, 1000);
 
 function changeColor(){
-  document.querySelector('#hex').innerHTML = '#' + (Math.random()* 0xFFFFFF << 0 ).toString(16);
+  document.querySelector('#hex').innerHTML = '#' + (Math.random()* 0xFFFFFF << 0 ).toString(16).toUpperCase();
   document.querySelector('#colorChange').style.background = document.querySelector('#hex').innerHTML;
 };
