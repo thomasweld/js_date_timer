@@ -1,11 +1,11 @@
 # Project Description
 
-This is a basic template for starting projects.
+Create a JavaScript clock you see in basic.gif below.
 
-## Deployment
+Note it does not need to be the same font, just look similar.
 
-To deploy your project just run:
+Have fun with the design.
 
-- Make sure you have a lowercase folder name
-- `npm run deploy`
-- You should have a 'surge.sh' link now for your project
+After you have done that, modify it to show as a hex color and on each second tick, change the background color. See hex.gif below for reference.
+
+## Hosted via Surge @ http://tiy-thomas-js_date_timer.surge.sh/
